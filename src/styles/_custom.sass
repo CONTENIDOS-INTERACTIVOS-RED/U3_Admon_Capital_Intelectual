@@ -17,13 +17,29 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #FFE1B9
   &-2
-    background-color: #FFFBE8
+    background-color: #E2DACC !important
   &-3
-    background-color: #F0E9F6
+    background-color: #1D7083
   &-4
-    background-color: #EAF8FD
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(206, 226, 157, 1) 30%, rgba(206, 226, 157, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-5
+    background-color: #C1F0FA
+  &-6
+    background-color: #E6F0CD
+  &-7
+    background-color: #CEE29D
+  &-8
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(193, 240, 250, 1) 30%, rgba(193, 240, 250, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-9
+    background-color: #E9F9FD
+  &-10
+    background-color: #F2F7E5
+  &-11
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(226, 218, 204, 1) 30%, rgba(226, 218, 204, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-12
+    background-color: #36CEEF
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -38,6 +54,13 @@
     border-top: 5px solid $color-secundario !important
   &.color-terciario
     border-top: 5px solid $color-terciario !important
+  
+.brd
+  border: 2px dashed #7B776F
+  &-1
+    border: 2px dashed #496406
+  &-2
+    border: 2px dashed #1D7083
 
 // Full Width Background
 .bg-full-width
@@ -54,7 +77,7 @@
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -66,7 +89,7 @@ $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
 $custom-card-text-bg: #FFF
 $custom-card-text-padding: 15px
 $custom-card-text-font-size: 14px
-$custom-card-img-height: 322px
+$custom-card-img-height: 213px
 .custom-image-card
   border-radius: $custom-card-border-radius
   overflow: hidden
@@ -97,15 +120,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 37%) !important
 
 
 .anexo__texto
@@ -214,10 +237,10 @@ $custom-card-img-height: 322px
 
 
 .lista-ul--color li > i:first-of-type
-  color: #453179 !important
+  color: #103D47 !important
 
 .lista-ul--color.color-dark li > i:first-of-type
-  color: #453179 !important
+  color: #103D47 !important
           
 
 th.bg-color-tabla
